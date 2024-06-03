@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.3"
+    "@headlessui/react": "^2.0.4",
+    "@headlessui/tailwindcss": "^0.2.1",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tremor/react": "^3.17.2",
+    "next": "^15.0.0-rc.0",
+    "react": "^19.0.0-rc-6d3110b4d9-20240531",
+    "react-dom": "^19.0.0-rc-6d3110b4d9-20240531"
   },
   "devDependencies": {
     "typescript": "^5",
@@ -20,5 +24,6 @@
     "@types/react-dom": "^18",
     "postcss": "^8",
     "tailwindcss": "^3.4.1"
-  }
+  },
+  "packageManager": "pnpm@9.1.2+sha512.127dc83b9ea10c32be65d22a8efb4a65fb952e8fefbdfded39bdc3c97efc32d31b48b00420df2c1187ace28c921c902f0cb5a134a4d032b8b5295cbfa2c681e2"
 }
